@@ -1,6 +1,8 @@
 {
   "name": "nuxt-app",
-  "private": true,
+  "private": false,
+  "version": "0.0.1",
+  "author": "Jakub Dvorak (https://www.linkedin.com/in/jakubdvorakone)",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -11,6 +13,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "firebase-tools": "^12.6.2",
     "nuxt": "^3.7.4",
     "sass": "^1.68.0",
     "vue": "^3.3.4",
