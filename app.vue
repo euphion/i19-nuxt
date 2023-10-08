@@ -113,7 +113,7 @@
 
 <script setup lang="ts">
 onMounted(() => {
-  history.scrollRestoration = "manual"
+  //history.scrollRestoration = "manual"
 })
 </script>
 
@@ -130,7 +130,6 @@ html, body {
 
 html {
   font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth;
   color: #ffffff;
   background: #000000;
   padding: 1rem .2rem;

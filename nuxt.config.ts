@@ -4,6 +4,7 @@ import cs from "./i19/translations/cs"
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   i19: {
     defaultLocale: "en",
     locales: {
