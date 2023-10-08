@@ -111,9 +111,9 @@
   </main>
 </template>
 
-<script setup lang="ts">
+<script setup>
 onMounted(() => {
-  //history.scrollRestoration = "manual"
+  history.scrollRestoration = "manual"
 })
 </script>
 
@@ -133,6 +133,7 @@ html {
   color: #ffffff;
   background: #000000;
   padding: 1rem .2rem;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -231,6 +232,12 @@ code {
     display: block;
     margin-bottom: .5rem;
     margin-left: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
   }
 }
 </style>
